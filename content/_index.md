@@ -8,6 +8,7 @@ intro_image_hide_on_mobile: true
                 parentTagName="header"
                 elementHeight="100%"
                 elementBackgroundColor="#fff" >}}
+
 # Data Quality and – Collection done right.
 
 ## Let me help you improve your data collection and – quality for better marketing performance and analyses.
