@@ -1,0 +1,135 @@
+{{ "<!--  => particles.js -->" | safeHTML }}
+<script src="https://cdn.rawgit.com/VincentGarreau/particles.js/master/particles.min.js"></script>
+<script type="text/javascript">
+// particle.js HTML element ID definition
+var htmlElementID = '{{ if .Get "elementID" }}{{ .Get `elementID` }}{{ else }}particles-js{{ end }}';
+if (document.getElementsByTagName('{{ if .Get "parentTagName" }}{{ .Get `parentTagName` }}{{ else }}header{{ end }}')) {
+  headerObjRef = document.getElementsByTagName('{{ if .Get "parentTagName" }}{{ .Get `parentTagName` }}{{ else }}header{{ end }}');
+  while (headerObjRef[0].hasChildNodes()) {
+    headerObjRef[0].removeChild(headerObjRef[0].lastChild);
+  }
+  var particlesElement = document.createElement('div');
+  particlesElement.setAttribute('id', htmlElementID);
+  particlesElement.style.width = '100%';
+  particlesElement.style.height = '{{ if .Get "elementHeight" }}{{ .Get `elementHeight` }}{{ else }}450px{{ end }}';
+  particlesElement.style.display = 'block';
+  particlesElement.style.position = 'absolute top center';
+  particlesElement.style.marginTop = '10px';
+  particlesElement.style.backgroundColor = '{{ if .Get "elementBackgroundColor" }}{{ .Get `elementBackgroundColor` }}{{ else }}#3b3b3b{{ end }}';
+  headerObjRef[0].append(particlesElement);
+}
+
+if (document.getElementById(htmlElementID)) {
+particlesJS(htmlElementID, {
+  'particles': {
+    'number': {
+      'value': 50,
+      'density': {
+        'enable': true,
+        'value_area': 800
+      }
+    },
+    'color': {
+      'value': '#444'
+    },
+    'shape': {
+      'type': 'circle',
+      'stroke': {
+        'width': 0,
+        'color': '#444'
+      },
+      'polygon': {
+        'nb_sides': 5
+      },
+      'image': {
+        'src': 'img/github.svg',
+        'width': 100,
+        'height': 100
+      }
+    },
+    'opacity': {
+      'value': 0.5,
+      'random': false,
+      'anim': {
+        'enable': false,
+        'speed': 1,
+        'opacity_min': 0.1,
+        'sync': false
+      }
+    },
+    'size': {
+      'value': 3,
+      'random': true,
+      'anim': {
+        'enable': false,
+        'speed': 40,
+        'size_min': 0.1,
+        'sync': false
+      }
+    },
+    'line_linked': {
+      'enable': true,
+      'distance': 300,
+      'color': '#444',
+      'opacity': 0.4,
+      'width': 1
+    },
+    'move': {
+      'enable': true,
+      'speed': 2,
+      'direction': 'right',
+      'random': true,
+      'straight': false,
+      'out_mode': 'out',
+      'bounce': true,
+      'attract': {
+        'enable': false,
+        'rotateX': 600,
+        'rotateY': 1200
+      }
+    }
+  },
+  'interactivity': {
+    'detect_on': 'canvas',
+    'events': {
+      'onhover': {
+        'enable': true,
+        'mode': 'grab'
+      },
+      'onclick': {
+        'enable': true,
+        'mode': 'push'
+      },
+      'resize': true
+    },
+    'modes': {
+      'grab': {
+        'distance': 300,
+        'line_linked': {
+          'opacity': 1
+        }
+      },
+      'bubble': {
+        'distance': 400,
+        'size': 40,
+        'duration': 2,
+        'opacity': 8,
+        'speed': 3
+      },
+      'repulse': {
+        'distance': 200,
+        'duration': 0.4
+      },
+      'push': {
+        'particles_nb': 4
+      },
+      'remove': {
+        'particles_nb': 2
+      }
+    }
+  },
+  'retina_detect': true
+}
+);
+}
+</script>
