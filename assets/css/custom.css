@@ -12,3 +12,7 @@ div#prtcls {
   margin-top: -550px;
   margin-bottom: 0px;
   }
+
+.footer-title {
+    font-size: 0.9rem !important;
+  }

@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "nl-nl"
-title = "Hulp bij data collectie voor analytics / online marketing"
+title = "Need help to improve your data quality for better analytics / online marketing?"
 themesDir = "themes"
 theme = "hugo-serif-theme"
 
