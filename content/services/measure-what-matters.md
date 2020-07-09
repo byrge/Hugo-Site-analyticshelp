@@ -5,20 +5,16 @@ featured: true
 draft: false
 ---
 
-With an audit on your analytics environment we improve the accuracy of your data about visitors to your digital channels.
+With an audit on your digital environment I will improve the accuracy of your data about visitors & their behaviour in your digital channels.
 
-## Ne verba patulosque numen vix libet
+## Improving you Data Quality will result in better data meaning better decisions
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+I can audit your digital environment by: 
 
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
+1. checking your Google Analytics account & setup
+2. checking your Google Tag Manager account & setup
+3. testing if your digital collection is according to the privacy laws
+4. analyzing your digital data collection and data quality
 
 Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
 dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!

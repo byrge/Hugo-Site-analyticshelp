@@ -4018,7 +4018,7 @@ ol {
 
 .header {
   color: #106be0;
-  background-color: #ffffff;
+  background-color: #F4F5FB;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -4161,7 +4161,7 @@ ol {
   @media (min-width: 576px) {
     .logo {
       display: block;
-      width: 120px; } }
+      width: 80px; } }
   .logo img {
     width: 100%;
     height: auto; }

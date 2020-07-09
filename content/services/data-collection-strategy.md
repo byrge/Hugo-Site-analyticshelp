@@ -1,15 +1,13 @@
 ---
-title: "Superannuation"
+title: "Data Collection Strategy"
 date: 2018-11-28T15:14:54+10:00
 featured: true
 draft: false
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+Your Data Collection Strategy is the base of your digital environment. All analyses or marketing is done based on the collected data. So the data you collect needs to be of quality.
 
-## Ne verba patulosque numen vix libet
+## Data Quality
 
 Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
 Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui

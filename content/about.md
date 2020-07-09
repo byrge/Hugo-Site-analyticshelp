@@ -3,48 +3,57 @@ title: 'About'
 menu: 'main'
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+## My experience so far
+I worked as a web analyst in the past and noticed at more and more companies that analyzing the data raised questions about the quality of the data. Did I come to the right conclusion and action(s) to be taken or was the data flawed and was I never to have a proper analysis?
 
-## Ne verba patulosque numen vix libet
+The moment I started doubting the data more and more I realized I had to start working to improve the data collection. Improve the data quality meant for me to start a new journey. I learned myself some new skills as Javascript coding, work in scrum teams and dived into the nitty gritty of analytics implementations.
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+I worked at companies in the following industries
 
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
+* finance
+* ecommerce (both b2b and consumers)
+* travel
+* print
 
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
+Besides working as an employee at Wehkamp (ecommerce industry) I also work as a free-lance consultant for roughly 8 – 16 hours a week. Being a free-lancer I can help other companies with their data strategy and how to improve their data collection and data quality.
 
-## Postquam tamen
+## My learnings so far
+Over the years I learned a lot about data analyses, data collection and data quality.
 
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
+One of the solutions for doing data collection right, was to implement an analytics (tagging) middleware solution. This solution provides all analytics  logic in one api to all teams building the website. There are multiple advantages for a solution like this, for example:
+- easier to maintain
+- easier to connect new (analytics) vendors
+- it's vendor agnostic, so easier changing analytics vendor
+- data quality will increase because of simplifying the implementation and a consistent and uniform tagging solution
 
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
+### Tooling
+I have experience with the following tooling:
 
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
+- Google Analytics (v1)
+    - Google Analytics for web
+    - Google Analytics for app
+- Google Analytics (v2) aka Firebase Analytics
+    - Google Analytics app+web
+    - Google Analytics implementation in iOS and Android
+    - Google Analytics implementation in web (beta)
+- Google Tag Manager
+    - Web container setup
+    - Enhanced Ecommerce implementation (Web and iOS / Android (Google Analytics v1 and v2 implementations))
+    - GDPR (AVG) proof implementations
+    - Firebase GTM for app (iOS and Android)
+- Snowplow
+    - Collector implementation on own subdomain
+    - Iglu schema server setup for company specific schemas
+    - Implementation in Google Tag Manager for web
+- Adobe Analytics
+- Tealium Tag Manager
+- Relay42 DMP
 
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+## Why did I start analyticshelp?
+I started analyticshelp, because although I love working at Wehkamp as a technical web analyst helping out to improve data collection and – quality, I also like to work at different industries to help companies with their data strategy and learn about the specifics for each industry.
+
+there are many blog posts about web analytics there is less information bundled to find about app analytics and data quality. Both do have my attention and interest, because app traffic is growing year by year and doing app analytics in't that easy. Debugging is notoriously more difficult than the web counterpart.
+
+Data collection is also hard to do right. Many companies struggle with collecting quality data points instead of quantitive data. Nowadays collecting data according to the law is becoming more and more difficult. Do we, analysts, legal department, online marketeers and other stakeholders, still understand what can or can't be tracked and when?
+
+Furthermore I started working on a 'middleware' tagging solution to improve the quality of the data collection. My learnings, about JavaScript and how to work together with frontend developers and app developers, are in the blog posts.
