@@ -1,21 +1,41 @@
-<form name="contact" method="POST" data-netlify="true">
+<form name="contact" method="POST" data-netlify="true" action="/contact-thankyou">
+    <input type="hidden" name="form-name" value="contact" />
+
     <div class="input-group">
-        <input class="input--style-2" type="text" placeholder="First name" name="first name">
+        <input class="input--style-2" type="text" placeholder="First name" name="first name" required>
     </div>
 
     <div class="input-group">
-        <input class="input--style-2" type="text" placeholder="Last name" name="last name">
+        <input class="input--style-2" type="text" placeholder="Last name" name="last name" required>
     </div>
 
     <div class="input-group">
-        <input class="input--style-2" type="text" placeholder="Email" name="email">
+        <input class="input--style-2" type="text" placeholder="Email" name="email" required>
     </div>
 
     <div class="input-group">
-        <textarea name="question" placeholder="Question" rows="5"></textarea>
+        <input class="input--style-2" type="text" placeholder="Phone" name="phone" required>
+    </div>
+
+    <div class="input-group">
+        <textarea name="question" placeholder="Question" rows="3" required></textarea>
+    </div>
+
+    <div class="input-group-checkbox">
+        <p class="checkbox-list">I need help with</p>
+        <label>Google Analytics <input class="input--checkbox" type="checkbox" placeholder="Google Analytics" name="tool"></label>
+    </div>
+    <div class="input-group-checkbox">
+        <label>Google Tag Manager <input class="input--checkbox" type="checkbox" placeholder="Google Analytics" name="tool"></label>
+    </div>
+    <div class="input-group-checkbox">
+        <label>Google Marketing Platform <input class="input--checkbox" type="checkbox" placeholder="Google Analytics" name="tool"></label>
+    </div>
+    <div class="input-group-checkbox">
+        <label>Advanced Analytics <input class="input--checkbox" type="checkbox" placeholder="Google Analytics" name="tool"></label>
     </div>
     
     <div>
-        <button class="btn btn--radius btn--color" type="submit">Send</button>
+        <button class="btn btn--radius btn--color" type="submit">Let's talk</button>
     </div>
 </form>

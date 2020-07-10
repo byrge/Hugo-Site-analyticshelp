@@ -3,6 +3,7 @@ languageCode = "nl-nl"
 title = "Need help to improve your data quality for better analytics / online marketing?"
 themesDir = "themes"
 theme = "hugo-serif-theme"
+enableGitInfo = "true"
 
 [params]
   # In most cases you will only want to use either one of these. If you have Google Analytics included in your GTM tags don't put your GA ID here. Otherwise your data might be useless.

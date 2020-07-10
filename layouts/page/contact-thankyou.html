@@ -1,5 +1,5 @@
 {{ define "header_css" }}{{ end }}
-{{ define "body_classes" }}page-contact{{ end }}
+{{ define "body_classes" }}page-contact-thankyou{{ end }}
 {{ define "header_classes" }}{{ end }}
 
 {{ define "main" }}
@@ -8,16 +8,10 @@
     <div class="col-12 col-md-8">
       <div class="service service-single">
         <h1 class="title">{{.Title}}</h1>
-        {{ partial "call.html" . }}
-        <h2 class="subtitle">{{ .Params.formtitle }}</h2>
         <div class="content mt-4">{{.Content}}</div>
-        <div class="content mt-4 form">
-          {{ partial "contact-form.html" . }}
-        </div>
       </div>
     </div>
   </div>
-  <p>{{ if .IsPage }}<small class="gray"><em>Updated: {{ .Page.Lastmod }}, Version: {{ .GitInfo.AbbreviatedHash }}</em></small>{{ end }}</p>
 </div>
 
 {{ end }}
