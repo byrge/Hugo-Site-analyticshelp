@@ -14,12 +14,12 @@ div#prtcls {
   }
 
 .footer-title {
-    font-size: 0.9rem !important;
-  }
+  font-size: 0.9rem !important;
+}
 
 p.icons {
-    font-size: 0.8rem;
-    color: #ddd;
+  font-size: 0.8rem;
+  color: #ddd;
 }
 p.icons a {
   color: #ddd;
@@ -29,6 +29,11 @@ p.payoff {
   font-size: 0.7rem;
   line-height: normal;
   color: #222;
+}
+
+.git-committed {
+  color: white;
+  font-size: 0.8rem;
 }
 
 legend {

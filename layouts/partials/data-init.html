@@ -1,0 +1,30 @@
+{{ with .GitInfo }} 
+{{ $git := . }}
+{{ with $.Site.Params.source }}
+
+<script>
+  var git = {
+    "abbreviatedHash": {{$git.AbbreviatedHash}},
+    "hash": {{$git.Hash}},
+    "date": {{dateFormat "2-01-2006" $git.AuthorDate}} ,
+  }
+  var page = {
+    "url": {{ $.Permalink }},
+    "path": {{$.Page.File.Dir}}+{{$.Page.File.BaseFileName}},
+    "title": {{ $.Title }},
+    "date": {{ dateFormat "2-01-2006" $.Page.Lastmod }},
+    "type": {{ $.Kind }},
+    'id': {{ $.File.UniqueID }},
+    'reading_time': {{ $.Page.ReadingTime }},
+    'words': {{ $.Page.WordCount }},
+  }
+  console.log(page);
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    "git": git,
+    "page": page
+  });
+</script>
+
+{{ end }}
+{{ end }}
